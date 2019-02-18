@@ -1,4 +1,4 @@
-I suggest to install from the source code
+I suggest to install vim from the source code
 
 ### preparation
 If you know what you should do before installation, that would be great
@@ -31,6 +31,9 @@ so, here is the options
             --enable-cscope \
             --prefix=/usr/local
 ```
+
+if you want to use python instead of python3, you should change the configure options
+`--enable-pythoninterp=yes` and `--with-python-config-dir` will change to python config
 
 here, the option "--with-python-config-dir" is special, you need to find out the config directory by yourself
 you can use this command to try `find /usr -type d -name config`
